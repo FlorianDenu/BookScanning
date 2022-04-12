@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">BookeScanning</string>
+    <string name="app_name">BookScanning</string>
+    <string name="title_activity_bar_code_scanner">BarCodeScanner</string>
 </resources>

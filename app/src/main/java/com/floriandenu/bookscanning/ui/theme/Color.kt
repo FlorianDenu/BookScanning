@@ -1,4 +1,4 @@
-package com.example.bookescanning.ui.theme
+package com.floriandenu.bookscanning.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

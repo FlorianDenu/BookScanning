@@ -1,4 +1,4 @@
-package com.example.bookescanning.ui.theme
+package com.floriandenu.bookscanning.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
@@ -28,7 +28,7 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
-fun BookeScanningTheme(
+fun BookScanningTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
