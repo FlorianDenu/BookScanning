@@ -6,7 +6,7 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.floriandenu.bookscanning.barcodescanner.cameracomponents.CameraPreview
+import com.floriandenu.bookscanning.barcodescanner.ui.CameraPreview
 import com.floriandenu.bookscanning.booklist.ui.BookList
 import com.floriandenu.bookscanning.ui.theme.BookScanningTheme
 

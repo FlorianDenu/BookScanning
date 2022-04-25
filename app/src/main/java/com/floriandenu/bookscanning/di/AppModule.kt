@@ -1,5 +1,6 @@
 package com.floriandenu.bookscanning.di
 
+import com.floriandenu.bookscanning.api.VolumeApi
 import com.floriandenu.bookscanning.utils.ApiKeyInterceptor
 import dagger.Module
 import dagger.Provides
@@ -14,7 +15,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class AppModule {
 
     @Provides
-    fun provideBookService(): BookService {
+    fun provideBookService(): VolumeApi {
         val okHttpClient = OkHttpClient.Builder()
             .addInterceptor(ApiKeyInterceptor())
             .build()
@@ -24,7 +25,7 @@ class AppModule {
             .addConverterFactory(GsonConverterFactory.create())
             .client(okHttpClient)
             .build()
-            .create(BookService::class.java)
+            .create(VolumeApi::class.java)
     }
 
 }
